@@ -47,22 +47,6 @@ The game window will open and you can start playing immediately!
 - Avoid hitting the walls or yourself
 - Try to achieve the highest score!
 
-##  Project Structure
-
-```
-snake-animal/
-├── README.md          # This file
-├── snake.py           # Main game file
-├── rabbit.png         # Rabbit sprite
-├── pig.png            # Pig sprite
-├── panda.png          # Panda sprite
-├── monkey.png         # Monkey sprite
-├── carrot.png         # Carrot food sprite
-├── apple.png          # Apple food sprite
-├── bamboo.png         # Bamboo food sprite
-├── banana.png         # Banana food sprite
-└── grass.png          # Background image
-```
 
 ##  Game Customization
 
