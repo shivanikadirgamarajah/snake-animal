@@ -120,13 +120,13 @@ def draw_sidebar(score, speed):
     dis.blit(instr_label, [sidebar_x+15, game_y+280])
     
     arrows=instr_font.render("use arrow keys to move", True, light_gray)
-    dis.blit(arrows, [sidebar_x+25, game_y+310])
+    dis.blit(arrows, [sidebar_x+15, game_y+300])
     
     q_text=instr_font.render("Q = Quit", True, light_gray)
-    dis.blit(q_text, [sidebar_x+15, game_y+360])
+    dis.blit(q_text, [sidebar_x+15, game_y+320])
     
     c_text=instr_font.render("C = Restart", True, light_gray)
-    dis.blit(c_text, [sidebar_x+15, game_y+385])
+    dis.blit(c_text, [sidebar_x+15, game_y+340])
 
 def draw_game_border():
     # Draw double border with neon effect
@@ -242,7 +242,7 @@ def gameLoop():
         pygame.draw.line(dis, neon_magenta, (0, game_y-2), (dis_width, game_y-2), 2)
         
         # Draw title in top bar
-        top_title = title_font.render('🐍 SNAKE ANIMALS 🎮', True, neon_cyan)
+        top_title = title_font.render(' SNAKE ANIMALS ', True, neon_cyan)
         title_rect = top_title.get_rect()
         title_x = (game_width - title_rect.width) // 2 + game_x
         dis.blit(top_title, [title_x, game_y-23])
